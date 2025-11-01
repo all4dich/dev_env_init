@@ -5,8 +5,8 @@ This repository contains an Ansible playbook to install ROS2 Humble on edge devi
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/all4dich/edge_device_init.git
-cd edge_device_init
+git clone https://github.com/all4dich/dev_env_init
+cd dev_env_init
 ```
 
 2. Run the Ansible playbook:
