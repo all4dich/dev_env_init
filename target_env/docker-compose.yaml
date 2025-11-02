@@ -1,7 +1,9 @@
 version: '3.8'
 services:
-  ubuntu_2204:
+  ansible_env:
     build: .
-    ports:
-      - "30020:22"
-#    platform: linux/amd64
+    platform: linux/amd64
+    volumes:
+      - ..:/workspace
+      - /etc/ansible/hosts:/etc/ansible/hosts
+    network_mode: "host"
